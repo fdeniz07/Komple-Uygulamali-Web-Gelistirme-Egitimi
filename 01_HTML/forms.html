@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="register.php">
+      <div>
+        <label for="name">Adınız</label>
+        <input type="text" id="name" />
+      </div>
+      <div>
+        <label for="surname">Soyadınız</label>
+        <input type="text" id="surname" />
+      </div>
+      <div>
+        <label for="parola">Parola</label>
+        <input type="password" id="parola" />
+      </div>
+
+      <div>
+        <label for="intro">Kendini Anlat</label>
+        <textarea name="" id="intro" cols="15"></textarea>
+      </div>
+      <div>
+        <p>En sevdigin programlama dili</p>
+        <input type="radio" id="html" />
+        <label for="html">HTML</label>
+
+        <input type="radio" id="css" />
+        <label for="css">CSS</label>
+
+        <input type="radio" id="javascript" />
+        <label for="javascript">JavaScript</label>
+
+        <input type="radio" id="typescript" />
+        <label for="typescript">TypeScript</label>
+      </div>
+
+      <div>
+        <p>En sevdigin programlama dili</p>
+        <input type="checkbox" id="html2" />
+        <label for="html2">HTML</label>
+
+        <input type="checkbox" id="css2" />
+        <label for="css2">CSS</label>
+
+        <input type="checkbox" id="javascript2" />
+        <label for="javascrip2">JavaScript</label>
+
+        <input type="checkbox" id="typescript2" />
+        <label for="typescript2">TypeScript</label>
+      </div>
+      <br />
+      <div>
+        <label for="cities">Sehirler</label>
+        <select id="cities" required>
+          <option disabled selected hidden>Şehir seçiniz</option>
+          <option value="kocaeli">kocaeli</option>
+          <option value="istanbul">istanbul</option>
+          <option value="izmir">izmir</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="mail">Email</label>
+        <input type="email" id="mail" />
+      </div>
+      <br />
+      <div>
+        <label for="birthday">Dogum Tarihi</label>
+        <input type="date" id="birthday" />
+      </div>
+      <br /><br />
+      <button type="submit">Kaydet</button>
+      <button type="reset">Temizle</button>
+    </form>
+  </body>
+</html>
