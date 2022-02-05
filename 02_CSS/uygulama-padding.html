@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,10 +12,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
-
     <style>
       * {
         box-sizing: border-box;
@@ -27,7 +32,7 @@
       }
 
       #showcase {
-        background: url("home-bg.jpeg");
+        background: url("../02_CSS/images/home-bg.jpeg");
         background-position: center;
         height: 500px;
         width: 100%;
@@ -41,10 +46,13 @@
 
       .main-nav {
         display: inline-block;
-        width: calc(100% - 101px);
+        width: calc(
+          100% - 101px
+        ); /*Header kismini sabit birakip, geri kalani calc metodu ile navbar a biraktigimizda sayfa boyutu degisse bile yan yana olacaklardir.*/
         text-align: right;
         font-family: "Roboto", sans-serif;
       }
+
       .main-nav__items {
         margin: 0;
         padding: 0;
@@ -111,6 +119,12 @@
         font-size: 30px;
       }
 
+      #how-it-works h3 {
+        color: #3e4555;
+        font-size: 30px;
+        font-weight: 600;
+      }
+
       .row {
         margin-bottom: 40px;
       }
@@ -129,7 +143,7 @@
         background-color: brown;
       }
 
-      .icon-box h3 {
+      .icon-box col {
         color: #3e4555;
         font-size: 26px;
       }
@@ -139,9 +153,9 @@
       }
 
       .features__left {
-        background: url("features.jpeg");
-        background-size: cover;
+        background: url(../02_CSS/images/features.jpeg);
         background-position: top center;
+        background-size: cover;
       }
 
       .features__right {
@@ -159,7 +173,7 @@
         color: #fff;
         padding: 7px 15px;
         text-decoration: none;
-        font-size: 14px;
+        font-size: 12px;
         text-align: center;
         border: 1px solid #fc997c;
         border-radius: 3px;
@@ -180,12 +194,12 @@
       .plan {
         text-align: center;
         padding: 5px;
-        width: 33.3%;
+        width: 33, 3%;
         float: left;
       }
 
       .inner-plan {
-        background: #edf5f7;
+        background-color: #edf5f7;
         padding: 25px 10px;
       }
 
@@ -204,6 +218,7 @@
   <body>
     <header class="main-header">
       <a href="#" class="main-header__logo">MovieApp</a>
+      <!-- Navbar altindaki linkleri table icine aliyoruz ve display:inline-block yaparak ileride responsive tasarim icin linklerin alt alta gözükmesini saglayabiliriz. -->
       <nav class="main-nav">
         <ul class="main-nav__items">
           <li class="main-nav__item">
@@ -218,7 +233,6 @@
         </ul>
       </nav>
     </header>
-
     <main>
       <section id="showcase">
         <h1>Welcome to MovieApp</h1>
@@ -227,8 +241,10 @@
         <div class="row">
           <h2>How it works?</h2>
           <p>
-            We will show you step by step how to start watching your favorite
-            movies & tv shows starting now!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
+            deserunt sunt fuga animi, iste fugiat nulla at nam dicta, nostrum
+            tenetur architecto! Cum numquam hic qui nulla. Obcaecati, rerum
+            vitae.
           </p>
         </div>
         <div class="row">
@@ -236,24 +252,24 @@
             <i class="fas fa-sign-in-alt fa-3x"></i>
             <h3>Register</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
-              dolor repellendus minus doloribus tenetur accusamus?
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
+              libero ipsa vero reprehenderit similique sint?
             </p>
           </div>
           <div class="icon-box col-3">
             <i class="fab fa-buffer fa-3x"></i>
             <h3>Choose a Plan</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
-              dolor repellendus minus doloribus tenetur accusamus?
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
+              libero ipsa vero reprehenderit similique sint?
             </p>
           </div>
           <div class="icon-box col-3">
             <i class="far fa-smile fa-3x"></i>
-            <h3>Enjoy Moviies</h3>
+            <h3>Enjoy Movies</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
-              dolor repellendus minus doloribus tenetur accusamus?
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
+              libero ipsa vero reprehenderit similique sint?
             </p>
           </div>
         </div>
@@ -274,58 +290,56 @@
         </div>
       </section>
       <section id="plans">
-        <div class="row">
-          <h2 class="section-title">Become a Premium Member</h2>
-          <div class="container clearfix">
-            <div class="plan">
-              <div class="inner-plan">
-                <h2>Free</h2>
-                <h3>0/month</h3>
-                <ul>
-                  <li>HD available</li>
-                  <li>Unlimited Movies and TV shows</li>
-                  <li>Watch on your phone & tablet</li>
-                  <li>Download and watch offline</li>
-                  <li>Screens you can watch</li>
-                  <li>First Month Free</li>
-                </ul>
-                <div>
-                  <button>Choose Plan</button>
-                </div>
+        <h2 class="section-title">Become a Premium Member</h2>
+        <div class="container clearfix">
+          <div class="plan">
+            <div class="inner-plan">
+              <h2>Free</h2>
+              <h3>0/month</h3>
+              <ul>
+                <li>HD available</li>
+                <li>Unlimited Movies and TV shows</li>
+                <li>Watch on your phone & tablet</li>
+                <li>Download and watch offline</li>
+                <li>Screens you can watch</li>
+                <li>First Month Free</li>
+              </ul>
+              <div>
+                <button>Choose Plan</button>
               </div>
             </div>
-            <div class="plan">
-              <div class="inner-plan">
-                <h2>Basic</h2>
-                <h3>$9.99/month</h3>
-                <ul>
-                  <li>HD available</li>
-                  <li>Unlimited Movies and TV shows</li>
-                  <li>Watch on your phone & tablet</li>
-                  <li>Download and watch offline</li>
-                  <li>Screens you can watch</li>
-                  <li>First Month Free</li>
-                </ul>
-                <div>
-                  <button>Choose Plan</button>
-                </div>
+          </div>
+          <div class="plan">
+            <div class="inner-plan">
+              <h2>Basic</h2>
+              <h3>$9.99/month</h3>
+              <ul>
+                <li>HD available</li>
+                <li>Unlimited Movies and TV shows</li>
+                <li>Watch on your phone & tablet</li>
+                <li>Download and watch offline</li>
+                <li>Screens you can watch</li>
+                <li>First Month Free</li>
+              </ul>
+              <div>
+                <button>Choose Plan</button>
               </div>
             </div>
-            <div class="plan">
-              <div class="inner-plan">
-                <h2>Premium</h2>
-                <h3>$19.99/month</h3>
-                <ul>
-                  <li>HD available</li>
-                  <li>Unlimited Movies and TV shows</li>
-                  <li>Watch on your phone & tablet</li>
-                  <li>Download and watch offline</li>
-                  <li>Screens you can watch</li>
-                  <li>First Month Free</li>
-                </ul>
-                <div>
-                  <button>Choose Plan</button>
-                </div>
+          </div>
+          <div class="plan">
+            <div class="inner-plan">
+              <h2>Premium</h2>
+              <h3>$19.99/month</h3>
+              <ul>
+                <li>HD available</li>
+                <li>Unlimited Movies and TV shows</li>
+                <li>Watch on your phone & tablet</li>
+                <li>Download and watch offline</li>
+                <li>Screens you can watch</li>
+                <li>First Month Free</li>
+              </ul>
+              <div>
+                <button>Choose Plan</button>
               </div>
             </div>
           </div>
