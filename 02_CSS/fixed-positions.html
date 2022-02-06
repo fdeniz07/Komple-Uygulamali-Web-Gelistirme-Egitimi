@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        height: 2000px;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      .box {
+        padding: 10px;
+        border: 5px solid #6d5b95;
+        margin-top: 10px;
+      }
+
+      .navbar {
+        background: #feb236;
+        position: fixed;
+        width: 100%;
+        /* z-index: -1; */
+        top: 0;
+      }
+
+      .content {
+        background: #d64161;
+        margin-top: 60px;
+      }
+
+      .footer {
+        background: #ff7b25;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="box navbar">Navbar</div>
+      <div class="box content">Content</div>
+      <div class="box footer">Footer</div>
+    </div>
+  </body>
+</html>
