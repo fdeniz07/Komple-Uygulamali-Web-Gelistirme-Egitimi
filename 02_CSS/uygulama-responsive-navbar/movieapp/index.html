@@ -9,7 +9,7 @@
   </head>
   <body id="body">
     <header class="main-header">
-      <div id="main-nav" class="container responsive">
+      <div id="main-nav" class="container">
         <a href="#" class="main-header__logo">MovieApp</a>
         <nav class="main-nav">
           <ul class="main-nav__items">
@@ -22,8 +22,8 @@
             <li class="main-nav__item main-nav__item--login">
               <a href="#" class="btn btn-secondary">Login</a>
             </li>
-            <li class=" ">
-              <a href="">
+            <li class="main-nav__item">
+              <a href="#" onclick=" displayMenu()">
                 <i class="fa fa-bars"></i>
               </a>
             </li>
@@ -220,34 +220,44 @@
     </main>
 
     <footer>
-<div class="container">
-  <div class="row">
-    <div class="col-2">
-      <ul id="footer-links">
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Blog</a>
-        </li>
-        <li>
-          <a href="#">Forum</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-     </ul>
-    </div>
-    <div class="col-2">
-      <ul id="social-links">
-        <li><a href="" class="fab fa-facebook"></a></li>
-        <li><a href="" class="fab fa-twitter"></a></li>
-        <li><a href="" class="fab fa-instagram"></a></li>
-      </ul>
-    </div>
-  </div>
-</div>
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <ul id="footer-links">
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a href="#">Forum</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+          </ul>
+          </div>
+          <div class="col-2">
+            <ul id="social-links">
+              <li><a href="" class="fab fa-facebook"></a></li>
+              <li><a href="" class="fab fa-twitter"></a></li>
+              <li><a href="" class="fab fa-instagram"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </footer>
-    <a href="#body" id="backtotop"><i class="fas fa-chevron-circle-up"></i></a>
+    <a href="#body" id="backtotop">
+      <i class="fas fa-chevron-circle-up"></i>
+    </a>
+
+<script>
+  function displayMenu(){
+    var link = document.getElementById("main-nav");
+    link.classList.toggle("responsive");
+  }
+</script>
+
   </body>
 </html>

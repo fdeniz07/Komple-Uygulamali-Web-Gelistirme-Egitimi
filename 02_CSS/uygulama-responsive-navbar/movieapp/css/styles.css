@@ -113,6 +113,22 @@ main {
   .main-nav__item:last-child {
     display: block;
   }
+
+  .responsive .main-nav__item {
+    display: block;
+    text-align: left;
+    margin: 1rem 0;
+  }
+
+  .responsive .main-nav {
+    display: block;
+  }
+
+  .responsive .main-nav__item:last-child {
+    position: absolute;
+    right: 40px;
+    top: 10px;
+  }
 }
 
 .main-nav__item a {
