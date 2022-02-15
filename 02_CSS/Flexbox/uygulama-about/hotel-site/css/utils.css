@@ -141,4 +141,13 @@
   padding: 20px;
   flex-basis: 100%;
 }
+
+/* flex-colums */
+.flex-colums .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 /* flex grid */
