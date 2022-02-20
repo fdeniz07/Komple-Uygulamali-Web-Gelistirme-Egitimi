@@ -4,7 +4,183 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:768px)"
+      href="css/mobile.css"
+    />
+    <title>News Site</title>
   </head>
-  <body></body>
+  <body>
+    <!-- navbar -->
+    <!-- nav#main-nav.nav>.container>(img.logo)+(ul>li*4>a) -->
+    <nav id="main-nav" class="nav">
+      <div class="container">
+        <img src="img/logo.png" alt="" class="logo" />
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- article -->
+    <!--sect#articles>.container>.page-container>(art#article.card>(img[src="img/img-1.webp"])+(h1>(lorem5))+(.meta>(small>(i.fas.fa-user){Written by Fatih Deniz 20 Feb 2022})+(div.category.bg-primary{Sport}))+(p>lorem)+(p>lorem200)+(p>lorem100))+(aside.card.bg-secondary>(h2{Join Us})+(p>lorem15)+(a.btn.btn-dark.btn-block[href="#"]{Join Now}))+(aside#categories.card>(h2{Categories})+ul>(li>a[href="#"]>i.fas.fa-chevron-right{Sport})+(li>a[href="#"]>i.fas.fa-chevron-right{Tech})+(li>a[href="#"]>i.fas.fa-chevron-right{Healt}))-->
+
+    <section id="articles">
+      <div class="container">
+        <div class="page-container">
+          <article id="article" class="card">
+            <img src="img/img-1.webp" alt="" />
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <div class="meta">
+              <small
+                ><i class="fas fa-user"></i>Written by Fatih Deniz 20 Feb
+                2022</small
+              >
+              <div class="category bg-primary">Sport</div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla,
+              voluptate nihil. Numquam mollitia voluptas, blanditiis, doloribus
+              minus sunt saepe ullam facilis quisquam dolorum aut. Ex enim
+              expedita vero rerum ducimus!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              ad aut rerum quasi nam saepe consectetur? Adipisci vel molestiae
+              rerum enim voluptate id accusamus, animi perferendis, eligendi
+              dolorum totam velit dolore architecto illum vitae fuga quod
+              veritatis culpa. Reprehenderit assumenda earum mollitia non ipsum
+              vitae, exercitationem deserunt natus velit! Ab praesentium quidem
+              commodi enim harum animi illo est, atque iste, dolorum velit illum
+              repudiandae? Dolore mollitia delectus, quaerat non vitae quos
+              facere laboriosam fugiat ipsum aut eligendi porro repellendus!
+              Nobis minima asperiores corporis ipsa vero vitae ratione
+              laboriosam deleniti, a animi itaque soluta. Iste est officia illo
+              laboriosam, fugiat delectus beatae eum facilis eius nulla saepe
+              ipsa voluptates, quo ullam in. Ipsa quas ducimus magni ullam
+              recusandae expedita labore harum aspernatur placeat, aliquam
+              deleniti. Placeat ipsam blanditiis vero quis quibusdam illo neque
+              assumenda, officia dolorum velit nostrum. Porro pariatur expedita,
+              ratione voluptatibus ad provident id unde harum quasi enim
+              temporibus ab similique. Rem illo itaque quis. Corporis nemo atque
+              nostrum a cupiditate. Cupiditate dicta, at quibusdam nobis iste
+              alias illum numquam beatae omnis dolor sequi nesciunt corporis
+              voluptas cum distinctio a commodi aperiam sint doloribus excepturi
+              iusto. Ad quod voluptatibus sit natus et ipsa illo, asperiores
+              architecto molestiae dolore. Laudantium.
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
+              alias saepe dignissimos quae nulla optio magni adipisci nemo
+              fugiat qui! Magni repudiandae pariatur molestias amet sit itaque,
+              omnis quasi fugiat! Totam harum tempore aliquam modi eius deserunt
+              nisi officiis iste, est magni repellendus eum doloribus nesciunt
+              facilis sed inventore impedit vero? Reprehenderit tempora expedita
+              omnis! Non veniam recusandae illum! Assumenda quia sit aspernatur
+              laboriosam voluptatem culpa, ipsam ea reprehenderit rem obcaecati
+              sapiente, saepe maiores unde fuga mollitia voluptates? Ducimus
+              quam odit distinctio debitis placeat, velit voluptatum earum
+              voluptatem, vitae, illo dignissimos provident pariatur dicta nihil
+              ut id praesentium. Provident, magni?
+            </p>
+          </article>
+          <aside class="card bg-secondary">
+            <h2>Join Us</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla rem
+              doloremque quibusdam veniam quo in!
+            </p>
+            <a href="#" class="btn btn-dark btn-block">Join Now</a>
+          </aside>
+          <aside id="categories" class="card">
+            <h2>Categories</h2>
+            <ul>
+              <li>
+                <a href="#"><i class="fas fa-chevron-right">Sport</i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-chevron-right">Tech</i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-chevron-right">Healt</i></a>
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <!--   ftr#main-footer.py-2>.container.footer-container>(div>img[src="img/logo.png"]+p>lorem20)+(div>(h3>{Join Us})+(p>lorem10)+form>(input:email[placeholder="Enter email"])+input:submit[value="Subscribe"].btn.btn-primary)+(div>h3{Links}+ul>(li>a{Help & Support})+(li>a{Privacy Policy})+(li>a{About Us})+(li>a{Contact}))+(div>h3{Follow Us}+div>(a>i.fab.fa-facebook.fa-2x)+(a>i.fab.fa-twitter.fa-2x)+(a>i.fab.fa-instagram.fa-2x)+(a>i.fab.fa-youtube.fa-2x))+(div>p{Copyright &copy; 2022, All Rights Reserved}) -->
+
+    <footer id="main-footer" class="py-2">
+      <div class="container footer-container">
+        <div>
+          <img src="img/logo.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum
+            maiores quo vero molestiae vitae. Pariatur, necessitatibus.
+            Voluptatum sint fuga deserunt!
+          </p>
+        </div>
+        <div>
+          <h3>Join Us</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro,
+            sit.
+          </p>
+          <form action="">
+            <input type="email" name="" id="" placeholder="Enter email" /><input
+              type="submit"
+              value="Subscribe"
+              class="btn btn-primary"
+            />
+          </form>
+        </div>
+        <div>
+          <h3>Links</h3>
+          <ul>
+            <li><a href="">Help & Support</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Follow Us</h3>
+          <div>
+            <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+            <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+            <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+            <a href=""><i class="fab fa-youtube fa-2x"></i></a>
+          </div>
+        </div>
+        <div>
+          <p>Copyright &copy; 2022, All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
