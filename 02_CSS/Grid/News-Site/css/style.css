@@ -180,3 +180,47 @@ p {
   background-color: var(--primary-color);
   padding: 1rem;
 }
+
+/* navbar */
+#main-nav {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+#main-nav .container {
+  display: grid;
+  grid-template-columns: 0.6fr 3fr 2fr;
+  padding: 1rem;
+  align-items: center;
+}
+
+#main-nav .logo {
+  width: 65px;
+}
+
+#main-nav ul {
+  display: flex;
+  justify-self: start;
+}
+
+#main-nav ul li a {
+  padding: 0.6rem;
+  font-weight: bold;
+}
+
+#main-nav ul li a.active {
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 5px;
+}
+
+#main-nav ul li a:hover {
+  background: var(--light-color);
+  color: var(--dark-color);
+}
+
+#main-nav .social-icons {
+  justify-self: end;
+}
