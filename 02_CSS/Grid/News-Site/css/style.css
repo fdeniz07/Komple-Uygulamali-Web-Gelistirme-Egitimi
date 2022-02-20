@@ -93,6 +93,11 @@ p {
   color: #fff;
 }
 
+.bg-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
 .bg-light {
   background-color: var(--light-color);
   color: var(--dark-color);
@@ -171,6 +176,19 @@ p {
   margin: 1rem;
 }
 
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+.mb-2 {
+  margin-bottom: 0.6rem;
+}
+.mb-3 {
+  margin-bottom: 0.8rem;
+}
+.mb-4 {
+  margin-bottom: 1.6rem;
+}
+
 .card {
   background-color: #fff;
   padding: 1rem;
@@ -179,6 +197,16 @@ p {
 .card-primary {
   background-color: var(--primary-color);
   padding: 1rem;
+}
+
+.category {
+  display: inline-block;
+  color: #fff;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  padding: 0.4rem 0.6rem;
+  border-radius: 15px;
+  margin-bottom: 0.5rem;
 }
 
 /* navbar */
@@ -223,4 +251,34 @@ p {
 
 #main-nav .social-icons {
   justify-self: end;
+}
+
+/* header */
+#header {
+  color: #fff;
+  background-color: #333;
+  padding: 2rem;
+  position: relative;
+}
+
+#header:before {
+  content: "";
+  background: url("../img/rowing.jpeg") no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+#header .header-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 50vh;
+  align-items: center;
+}
+
+#header .header-content {
+  z-index: 2;
 }
