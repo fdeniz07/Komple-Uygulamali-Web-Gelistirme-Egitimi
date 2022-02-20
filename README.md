@@ -1,4 +1,4 @@
-# Komple-Uygulamali-Web-Gelistirme-Egitimi-Sadik-Turan
+# Komple-Uygulamali-Web-Gelistirme-Egitimi
 
 ## Html
 ## CSS
