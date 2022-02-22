@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .box {
+        background-color: yellow;
+        /* border-top: 5px solid white; */
+        width: 150px;
+        height: 150px;
+        transition: all 1s ease-in-out;
+      }
+
+      .box:hover {
+        /* transform: rotate(-45deg); */ /* Nesneyi -45derece döndürür */
+        /* transform: skew(-30deg); */ /* Nesneyi -30derece yamultur */
+        /* transform: scale(2); */ /* Nesneyei 2 kat büyütür */
+        /* transform: translateX(100px); */ /* Nesneyi 100px bulundugu konumdan X ekseninde kaydirir */
+        /* transform: translateY(-100px); */ /* Nesneyi 100px bulundugu konumdan Y eksininde kaydirir */
+        /* transform: translate(-100px, -100px); */ /* Nesneyi 100px X ve Y konumlarinda kaydirir */
+
+        /* transform: rotateX(180deg); */ /* Nesneyi X ekseninde -180derece döndürür */
+        transform: rotateY(
+          180deg
+        ); /* Nesneyi Y ekseninde -180derece döndürür */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>
