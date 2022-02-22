@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #333;
+      }
+
+      .box {
+        background-color: yellow;
+        width: 150px;
+        height: 150px;
+
+        /* animation-name: a1; */ /* Animasyon adi */
+        /* animation-duration: 2s; */ /* Animasyon süresi */
+        /* animation-iteration-count: 2; */ /* Animasyon sayisi */
+        /* animation-iteration-count: infinite; */ /* Animasyon tekrarlama sayisi */
+        /* animation-fill-mode: forwards; */ /* Animasyon doldurma yänü */
+        /* animation-delay: 2s;  */ /* Animasyon bekleme süresi */
+        /* animation-direction: alternate-reverse;  */ /* Animasyon yönü */
+        /* animation-timing-function: ease-in;  */ /* Animasyon hiz ayarlari */
+
+        animation: a1 5s ease-in 2s 2 alternate-reverse forwards;
+      }
+
+      @keyframes a1 {
+        to {
+          width: 500px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>
