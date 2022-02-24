@@ -12,7 +12,7 @@ package.json dosyasina asagidaki script yazilir
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w sass -o css"
+    "scss": "node-sass -w scss -o css"
   },
   "keywords": [],
   "author": "",
@@ -28,3 +28,5 @@ Daha sonra proje dosyasi icerisinde script calistirilir.
 npm run sass
 
 sass klasöründeki main.scss dosyasinda yapilan her degisiklik otomatik olarak css dosyasinda dönüstürülür
+
+Eger script dosyamizin boyutunun kücültülmesini istersek scriptin sonuna --output-style compressed("scss": "node-sass -w scss -o css --output-style compressed") komutu eklenir ve projede script tekrardan calistirilir(npm run scss)
