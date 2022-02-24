@@ -1,0 +1,30 @@
+Visual Studio Code --> Terminal de
+
+npm init --yes
+
+npm i node-sass
+
+package.json dosyasina asagidaki script yazilir
+
+{
+  "name": "sass-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w sass -o css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
+
+Projeye iki adet klasör eklenir. Bunlar sass ve css klasörleridir.
+
+Daha sonra proje dosyasi icerisinde script calistirilir.
+npm run sass
+
+sass klasöründeki main.scss dosyasinda yapilan her degisiklik otomatik olarak css dosyasinda dönüstürülür
