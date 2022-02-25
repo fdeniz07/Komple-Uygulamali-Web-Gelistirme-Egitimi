@@ -8,8 +8,46 @@
       href="https://fonts.googleapis.com/css2?family=Prompt&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="css/main.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <!-- header -->
+    <!-- header#header__home>.container>(nav.main-nav>(img[src="img/logo.png"].main-nav__logo)+(ul.main-nav__items>(li>a[href=".html"])*4))+.header-content>(h1{I'm John Anderson}>(span[data-period="2000",data-type='["Developer","Designer","Freelancer"]'].typewrite))+(a.btn-light.animate__animated.animate__swing.my-2{View My Profile}) -->
+    <header id="header__home">
+      <div class="container">
+        <nav class="main-nav">
+          <img src="img/logo.png" alt="" class="main-nav__logo" />
+          <ul class="main-nav__items">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-content">
+          <h1>
+            I'm John Anderson
+            <span
+              data-period="2000"
+              ,
+              data-type='["Developer","Designer","Freelancer"]'
+              class="typewrite"
+            >
+            </span>
+          </h1>
+          <a href="" class="btn-light animate__animated animate__swing my-2">
+            View My Profile
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/type-writer.js"></script>
+  </body>
 </html>

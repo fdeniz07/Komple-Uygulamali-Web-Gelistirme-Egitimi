@@ -4,7 +4,7 @@
   margin: auto;
 }
 
-//buttons
+// buttons
 %btn-shared {
   display: inline-block;
   padding: 0.7rem 2rem;
@@ -43,14 +43,14 @@ input[class^="btn-"]:hover {
     background-color: $dark-color;
   }
   &-primary {
-    background-color: $dark-color;
+    background-color: $primary-color;
   }
   &-light {
     background-color: $light-color;
   }
 }
 
-//padding
+// padding
 .py {
   &-1 {
     padding: 1rem 0;
@@ -66,7 +66,7 @@ input[class^="btn-"]:hover {
   }
 }
 
-//margin
+// margin
 .my {
   &-1 {
     margin: 1rem 0;
