@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header -->
+    <!-- header#header__home>.container>(nav.main-nav>(img[src="img/logo.png"].main-nav__logo)+(ul.main-nav__items>(li>a[href=".html"])*4))+.header-content>(h1{I'm John Anderson}>(span[data-period="2000",data-type='["Developer","Designer","Freelancer"]'].typewrite))+(a.btn-light.animate__animated.animate__swing.my-2{View My Profile}) -->
+    <header id="header__inner">
+      <div class="container">
+        <nav class="main-nav">
+          <img src="img/logo.png" alt="" class="main-nav__logo" />
+          <ul class="main-nav__items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- sect#about-a.text-center.py-2>.container>(h2.section-title{About Me})+.border-bottom+(p.lead>lorem20)+(div.info>(img[src="img/about.jpeg"].info__image)+(div.info__bio>(h3>Lorem5)+(p>lorem))) -->
+
+    <!-- section a -->
+    <section id="about-a" class="text-center py-2">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="border-bottom"></div>
+        <p class="lead">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi
+          pariatur dolor sint maxime? Reiciendis, voluptas possimus consequuntur
+          esse in voluptatum.
+        </p>
+        <div class="info">
+          <img src="img/about.jpeg" alt="" class="info__image" />
+          <div class="info__bio">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
+              iure dolorum doloribus ullam quidem animi, quis ratione? Fugiat
+              hic, cupiditate sunt nemo nulla nostrum sint ipsam porro, et
+              voluptates ad.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section b -->
+    <!-- sect#about-b.bg-dark.py-2>.container>(h2.section-title{What I Know...})+.border-bottom+div#progress-bars>(h4{Web Development}+(div.progress>(div[style="width:100%;"])))*4 -->
+
+    <section id="about-b" class="bg-dark py-2">
+      <div class="container">
+        <h2 class="section-title">What I Know...</h2>
+        <div class="border-bottom"></div>
+        <div id="progress-bars">
+          <h4>Web Development</h4>
+          <div class="progress">
+            <div style="width: 100%"></div>
+          </div>
+          <h4>Mobile App Development</h4>
+          <div class="progress">
+            <div style="width: 80%"></div>
+          </div>
+          <h4>Data Science</h4>
+          <div class="progress">
+            <div style="width: 60%"></div>
+          </div>
+          <h4>Machine Learning</h4>
+          <div class="progress">
+            <div style="width: 70%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <!-- ftr#main-footer>.footer-content.container>(p>{Copyright &copy; 2022. All Rights Reserved.})+(div.social>(i.fab.fa-facebook)+(i.fab.fa-twitter)+(i.fab.fa-instagram)+(i.fab.fa-youtube)+(i.fab.fa-linkedin)) -->
+
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy; 2022. All Rights Reserved.</p>
+        <div class="social">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

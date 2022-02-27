@@ -1,0 +1,37 @@
+#about {
+  &-a {
+    .info {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 2rem;
+
+      &__image {
+        border: 1px solid $light-color;
+        padding: 0.5rem;
+        border-radius: 3px;
+      }
+
+      &__bio {
+        border: 1px solid $light-color;
+        padding: 0.8rem;
+      }
+    }
+  }
+
+  &-b {
+    color: #fff;
+
+    .progress {
+      height: 20px;
+      background-color: $medium-color;
+      border-radius: 5px;
+      margin-bottom: 0.8rem;
+
+      div {
+        height: 100%;
+        text-align: center;
+        background-color: $primary-color;
+      }
+    }
+  }
+}
