@@ -45,4 +45,46 @@
       }
     }
   }
+
+  //home section c
+
+  &__c {
+    .process {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      text-align: center;
+
+      &__step {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 25px;
+        background: $primary-color;
+        border-radius: 50%;
+        line-height: 15px;
+        padding: 1rem;
+        transition: all 1s;
+      }
+
+      &__icon {
+        position: relative;
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        background-color: $dark-color;
+        color: #fff;
+        padding: 2rem;
+        text-align: center;
+
+        &:hover {
+          background-color: $primary-color;
+
+          .process__step {
+            background-color: $dark-color;
+          }
+        }
+      }
+    }
+  }
 }
