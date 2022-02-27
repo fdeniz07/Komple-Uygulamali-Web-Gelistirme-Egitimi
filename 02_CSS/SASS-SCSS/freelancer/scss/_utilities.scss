@@ -81,3 +81,26 @@ input[class^="btn-"]:hover {
     margin: 4rem 0;
   }
 }
+
+.text-center {
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.border-bottom {
+  height: 3px;
+  width: 3rem;
+  background-color: $primary-color;
+  margin: 0 auto 1rem auto;
+}
+
+.lead {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  word-spacing: 2px;
+}

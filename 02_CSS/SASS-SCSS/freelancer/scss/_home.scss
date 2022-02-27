@@ -1,0 +1,48 @@
+#home {
+  //home section a
+
+  &__a {
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+
+      i {
+        color: $primary-color;
+        padding-bottom: 0.5rem;
+      }
+    }
+  }
+
+  //home section b
+
+  &__b {
+    .profile {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+
+      li {
+        &.title {
+          font-size: 1.5rem;
+        }
+        &.number {
+          font-size: 2rem;
+          font-weight: bold;
+        }
+      }
+
+      div {
+        padding: 3rem 0;
+
+        &:nth-child(odd) {
+          background-color: $light-color;
+        }
+
+        &:nth-child(even) {
+          background-color: $medium-color;
+        }
+      }
+    }
+  }
+}
