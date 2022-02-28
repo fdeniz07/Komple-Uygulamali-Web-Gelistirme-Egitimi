@@ -19,6 +19,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
+    />
     <link rel="stylesheet" href="css/main.css" />
     <title>Document</title>
   </head>
@@ -94,6 +98,78 @@
       </div>
     </section>
 
+    <!-- section c -->
+    <!-- sect#about-c.bg-light.py-2>.container>(div.about-logos>(img[src="img/joomla.png"])+(img[src="img/woocommerce.png"])+(img[src="img/wordpress.png"])+(img[src="img/wix.png"])) -->
+
+    <section id="about-c" class="bg-light py-2">
+      <div class="container">
+        <div class="about-logos">
+          <img src="img/joomla.png" alt="" />
+          <img src="img/woocommerce.png" alt="" />
+          <img src="img/wordpress.png" alt="" />
+          <img src="img/wix.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- section d -->
+    <!-- sect#about-d.py-2>.container>(h2.section-title{References})+.border-bottom+(p.lead.text-center>lorem8)+(div.references>(div>(p>lorem20)+(ul>(li>img[src="img/user-$.jpeg"])+li>lorem5))*4) -->
+
+    <section id="about-d" class="py-2">
+      <div class="container">
+        <h2 class="section-title">References</h2>
+        <div class="border-bottom"></div>
+        <p class="lead text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="references owl-carousel owl-theme">
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut atque
+              molestiae ducimus cupiditate alias amet cumque maxime iusto quasi
+              vitae?
+            </p>
+            <ul>
+              <li><img src="img/user-1.jpeg" alt="" /></li>
+              <li>Lorem ipsum dolor sit amet.</li>
+            </ul>
+          </div>
+          <div>
+            <p>
+              Porro vero nulla quibusdam nisi doloribus saepe corporis ipsam
+              odio molestiae deserunt obcaecati corrupti quo impedit quae
+              distinctio, at ad.
+            </p>
+            <ul>
+              <li><img src="img/user-2.jpeg" alt="" /></li>
+              <li>Aspernatur deleniti corrupti perspiciatis deserunt.</li>
+            </ul>
+          </div>
+          <div>
+            <p>
+              Quos totam dicta vel perferendis quisquam amet placeat, voluptatum
+              dolores, officia sequi dolore blanditiis eligendi cumque expedita
+              soluta nulla! Eaque?
+            </p>
+            <ul>
+              <li><img src="img/user-3.jpeg" alt="" /></li>
+              <li>Ratione quis est minima sint!</li>
+            </ul>
+          </div>
+          <div>
+            <p>
+              Totam culpa dolor ea delectus minus. Ex architecto maxime enim, et
+              modi quidem aliquid, quam pariatur a labore, natus nemo!
+            </p>
+            <ul>
+              <li><img src="img/user-4.jpeg" alt="" /></li>
+              <li>Error aspernatur unde rem nam!</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- footer -->
     <!-- ftr#main-footer>.footer-content.container>(p>{Copyright &copy; 2022. All Rights Reserved.})+(div.social>(i.fab.fa-facebook)+(i.fab.fa-twitter)+(i.fab.fa-instagram)+(i.fab.fa-youtube)+(i.fab.fa-linkedin)) -->
 
@@ -109,5 +185,28 @@
         </div>
       </div>
     </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
   </body>
 </html>

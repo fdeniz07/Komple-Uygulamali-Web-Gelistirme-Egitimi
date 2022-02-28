@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^7.0.1"
+    "node-sass": "^7.0.1",
+    "owl.carousel": "^2.3.4"
   }
 }
