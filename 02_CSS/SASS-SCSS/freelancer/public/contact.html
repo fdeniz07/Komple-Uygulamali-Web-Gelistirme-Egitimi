@@ -55,7 +55,7 @@
         <h2 class="section-title">Contact Me</h2>
         <div class="border-bottom"></div>
         <p class="lead">Lorem ipsum dolor sit amet.</p>
-        <form action="">
+        <form data-netlify="true" method="POST">
           <div class="form-fields">
             <input
               type="text"
@@ -86,8 +86,9 @@
               id="message"
               placeholder="Enter Message"
               class="message input"
-            ></textarea
-            ><button type="submit" class="btn-dark">Submit</button>
+            ></textarea>
+            <div data-netlify-recaptcha="true"></div>
+            <button type="submit" class="btn-dark">Submit</button>
           </div>
         </form>
       </div>
