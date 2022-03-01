@@ -1,15 +1,14 @@
 # Komple-Uygulamali-Web-Gelistirme-Egitimi
 
-## Html
-## CSS
-## CSS - SASS & SCSS
-## Bootstrap
-## Javascript
-## JQuery
-## NodeJs
-## TypeScript
-## Angular
-## C#.NET
-## MySQL & MSSQL
-## ASP.NET CORE MVC
-## ASP.NET MVC
+## 1- Html
+## 2- CSS - SASS & SCSS
+## 3- Bootstrap
+## 4- Javascript
+## 5- JQuery
+## 6- NodeJs
+## 7- TypeScript
+## 8- Angular
+## 9- C#.NET
+## 10- MySQL & MSSQL
+## 11- ASP.NET CORE MVC
+## 12- ASP.NET MVC
