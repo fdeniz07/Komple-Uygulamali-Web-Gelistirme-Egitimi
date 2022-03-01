@@ -13,30 +13,24 @@
       .name {
         grid-area: name;
       }
-
       .email {
         grid-area: email;
       }
-
-      .subject {
-        grid-area: subject;
-      }
-
       .phone {
         grid-area: phone;
       }
-
+      .subject {
+        grid-area: subject;
+      }
       .message {
         grid-area: message;
         height: 180px;
       }
-
       .btn-dark {
         grid-area: button;
       }
-
       .input {
-        padding: 0.5rem;
+        padding: 0.5rem 1rem;
       }
     }
   }
