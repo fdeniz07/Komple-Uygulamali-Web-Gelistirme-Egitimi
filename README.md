@@ -1,6 +1,6 @@
 # Komple-Uygulamali-Web-Gelistirme-Egitimi
 
-## 1- Html - Live Previous : html-movie-app.netlify.app
+## 1- Html - Live Previous : https://html-movie-app.netlify.app/
 ## 2- CSS - SASS & SCSS
 ## 3- Bootstrap
 ## 4- Javascript
