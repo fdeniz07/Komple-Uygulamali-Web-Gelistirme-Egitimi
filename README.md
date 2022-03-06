@@ -23,16 +23,16 @@
 
 ## 2- CSS - SASS & SCSS
 
-### CSS - Movie App (Responsive) : https://css-movie-app.netlify.app/ (Live Previous) 
+### CSS - Movie App (Responsive) : <a href="https://css-movie-app.netlify.app/" target="_blank">Link</a>  (Live Previous) 
 ![image](https://user-images.githubusercontent.com/81612480/156268505-9b22a116-9a74-4441-85c0-80a595cf287c.png)
 
-### CSS:Flexbox - Deluxe Hotel (Responsive) : https://css-flexbox-deluxe-hotel.netlify.app/ (Live Previous)
+### CSS:Flexbox - Deluxe Hotel (Responsive) : <a href="https://css-flexbox-deluxe-hotel.netlify.app/" target="_blank">Link</a> (Live Previous)
 ![image](https://user-images.githubusercontent.com/81612480/156269158-fa472f07-9438-48b2-ace8-27942759d7e0.png)
 
-### CSS:Grid - News Site (Responsive) : https://css-grid-newssite.netlify.app/ (Live Previous)
+### CSS:Grid - News Site (Responsive) : <a href="https://css-grid-newssite.netlify.app/" target="_blank">Link</a> (Live Previous)
 ![image](https://user-images.githubusercontent.com/81612480/156269559-c0a73d9c-0eee-4b2c-b96f-d5f9fcf690ee.png)
 
-### CSS:SASS-SCSS - Freelancer (Responsive) : https://css-sass-scss-freelancer.netlify.app/ (Live Previous)
+### CSS:SASS-SCSS - Freelancer (Responsive) : <a href="https://css-sass-scss-freelancer.netlify.app/" target="_blank">Link</a> (Live Previous)
 ![image](https://user-images.githubusercontent.com/81612480/156269849-fc728f3c-bb94-4811-8b40-f34833d8957a.png)
 
 <hr>
