@@ -76,49 +76,162 @@
 
 // Ders 3 : Degisken Tipleri
 
-// 1- Primitive Types
+// // 1- Primitive Types
 
-// a- String
-let firstName = "Fatih";
-console.log(typeof firstName);
+// // a- String
+// let firstName = "Fatih";
+// console.log(typeof firstName);
 
-// b- Number
-let age = 20;
-let money = 100.5;
+// // b- Number
+// let age = 20;
+// let money = 100.5;
 
-console.log(typeof age);
-console.log(typeof money);
+// console.log(typeof age);
+// console.log(typeof money);
 
-// c- Boolean
-let isActive = true;
+// // c- Boolean
+// let isActive = true;
 
-console.log(typeof isActive);
+// console.log(typeof isActive);
 
-// d- Null
-let job = null;
+// // d- Null
+// let job = null;
 
-console.log(typeof job);
+// console.log(typeof job);
 
-// e- Undefined
-let car;
-console.log(typeof car);
+// // e- Undefined
+// let car;
+// console.log(typeof car);
 
-//2-  Reference Types - Objects
+// //2-  Reference Types - Objects
 
-// a- Array
-let names = ["Ali", "Ahmet", "Can"];
-console.log(typeof names);
+// // a- Array
+// let names = ["Ali", "Ahmet", "Can"];
+// console.log(typeof names);
 
-// b- Object
-let address = {
-  city: "Antalya",
-  country: "Türkiye",
-};
+// // b- Object
+// let address = {
+//   city: "Antalya",
+//   country: "Türkiye",
+// };
 
-console.log(typeof address);
+// console.log(typeof address);
 
-// c- Function
-var calculateAge = function () {
-  return 0;
-};
-console.log(typeof calculateAge);
+// // c- Function
+// var calculateAge = function () {
+//   return 0;
+// };
+// console.log(typeof calculateAge);
+
+// Ders 4 : Tür Dönüsümü
+
+let num1 = "5";
+let num2 = "10";
+console.log(num1 + num1);
+console.log(typeof num1);
+
+let num3 = Number("5");
+let num4 = Number("10");
+
+let total = num3 + num4;
+console.log(total);
+console.log(typeof total);
+
+let val;
+// number to string
+val = String(10);
+
+console.log(val);
+console.log(typeof val);
+console.log(val.length);
+
+// bool to string
+val2 = String(true);
+
+console.log(val2);
+console.log(typeof val2);
+console.log(val2.length);
+
+// date to string
+val3 = new Date();
+
+console.log(val3);
+console.log(typeof val3);
+console.log(val3.length);
+
+val4 = String(new Date().getDay());
+
+console.log(val4);
+console.log(typeof val4);
+console.log(val4.length);
+
+// array to string
+val5 = String([1, 2, 3, 4]);
+
+console.log(val5);
+console.log(typeof val5);
+console.log(val5.length);
+
+// toString()
+val6 = (10).toString();
+val6 = false.toString();
+
+console.log(val6);
+console.log(typeof val6);
+console.log(val6.length);
+
+// String to Number
+val7 = Number("10");
+
+console.log(val7);
+console.log(typeof val7);
+console.log(val7.toFixed(2));
+
+// Bool to Number
+val8 = Number(true);
+val8 = Number(false);
+
+console.log(val8);
+console.log(typeof val8);
+console.log(val8.toFixed);
+
+// Null to Number
+val9 = Number(null);
+
+console.log(val9);
+console.log(typeof val9);
+console.log(val9.toFixed(2));
+
+// Not a Number to Number
+val10 = Number("a");
+
+console.log(val10);
+console.log(typeof val10);
+console.log(val10.toFixed(2));
+
+val11 = Number([1, 2, 3, 4]);
+
+console.log(val11);
+console.log(typeof val11);
+console.log(val11.toFixed(2));
+
+// parseInt
+// parseFloat
+
+val12 = parseInt("10");
+
+console.log(val12);
+console.log(typeof val12);
+console.log(val12.length);
+
+val13 = parseInt("10.5");
+
+console.log(val13);
+console.log(typeof val13);
+console.log(val13.length);
+
+val14 = parseFloat("10.5");
+
+console.log(val14);
+console.log(typeof val14);
+console.log(val14.length);
