@@ -1,9 +1,9 @@
 // if/else statements
 
-const firstName='Sena';
+const firstName = "Sena";
 const age = 19;
 const isStudent = false;
-const school = 'university';
+const school = "university";
 
 // if(firstName === 'Sena'){
 //     console.log('Merhaba Sena');
@@ -19,7 +19,6 @@ const school = 'university';
 //     console.log('Merhaba işler nasıl');
 // }
 
-
 // if (age>=18){
 
 //     if ((school == 'university') || (school == 'high school')){
@@ -32,7 +31,6 @@ const school = 'university';
 //     console.log('ehliyet alamazsınız');
 // }
 
-
 // if (age > 0  && age<12 ){
 //     console.log(`${firstName} is a child`);
 // }else if (age >=13 && age <=19){
@@ -43,8 +41,8 @@ const school = 'university';
 
 //undefined
 
-if (typeof id !== 'undefined'){
-    console.log('id: '+id);
-}else{
-    console.log('no id');
+if (typeof id !== "undefined") {
+  console.log("id: " + id);
+} else {
+  console.log("no id");
 }
