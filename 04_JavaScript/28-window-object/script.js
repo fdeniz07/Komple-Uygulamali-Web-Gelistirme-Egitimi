@@ -2,9 +2,9 @@
 
 let val;
 var a = 10;
-function abc(){
-   return 0;
-};
+function abc() {
+  return 0;
+}
 
 val = window;
 
@@ -12,7 +12,7 @@ val = window;
 // alert('Merhaba');
 
 // prompt
-// var val = prompt('bir sayı giriniz ');  
+// var val = prompt('bir sayı giriniz ');
 
 // confirm
 // val = confirm('emin misiniz ?');
