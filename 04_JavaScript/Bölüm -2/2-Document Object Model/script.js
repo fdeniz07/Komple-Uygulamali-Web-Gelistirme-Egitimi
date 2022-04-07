@@ -13,6 +13,7 @@ val = document.images;
 val = document.title;
 val = document.forms;
 val = document.forms[0];
+DD;
 val = document.forms[0].id;
 val = document.forms[0].method;
 val = document.forms[0].action;
