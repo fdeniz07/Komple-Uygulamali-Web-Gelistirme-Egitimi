@@ -7,7 +7,6 @@ val = document.all[10];
 val = document.head;
 val = document.body;
 val = document.anchors;
-val = document.URL;
 val = document.domain;
 val = document.images;
 val = document.title;
