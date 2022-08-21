@@ -1,7 +1,7 @@
 // Strings
 
-const firstName = 'Sadık';
-const lastName = "Turan";
+const firstName = 'Fatih';
+const lastName = "Deniz";
 let hobbies = 'sinema spor kitap yazılım';
 const age=35;
 
@@ -10,10 +10,10 @@ let val;
 // string concatenation
 
 val = firstName +" "+ lastName;
-val = 'Sadık';
-val +=' Turan';
+val = 'Fatih';
+val +=' Deniz';
 
-val = 'Benim adım '+firstName+' '+ lastName+ ' ve yaşım ' + age + ' izmit\'te yaşıyorum.';
+val = 'Benim adım '+firstName+' '+ lastName+ ' ve yaşım ' + age + ' Hagen\'de yaşıyorum.';
 
 //string concat
 val = firstName.concat(' ',lastName);
@@ -23,7 +23,7 @@ val = val.toUpperCase();
 val = val.toLowerCase();
 
 // string replace
-val = '  '+val.replace('sadik','çınar')+'     ';
+val = '  '+val.replace('fatih','çınar')+'     ';
 
 // trim
 val = val.trim();
