@@ -33,15 +33,13 @@ console.log(fullname); // Fatih Deniz
    var ad_soyad = "Fatih Deniz";
    var adSoyad = "Ahmet Demir";  
     
-    
  ** Değişken isimlerinde türkçe karakter kullanmamalıyız.   
 
  ** var, let, const Farklı değişken isimleridir.
 
       Var ve let ayni sekilde kullanilir. Sadece fark scope kullanimina göre degisiklik gösterilir. Her ikisinde de degisken atamasi sonradan degisitirilebilir
-
+      
       const degiskeninde ise, degisken atamasi sabit ise kullanilir. Bu degiskenin degeri sonradan degistirilemez
-
 
    let city = "Antalya";
    console.log(city);
