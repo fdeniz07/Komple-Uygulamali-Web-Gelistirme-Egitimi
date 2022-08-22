@@ -17,6 +17,16 @@ for (let i = 1; i <= 10; i++) {
     console.log(i);
 }
 
+let sayilar = [1, 2, 5, 7, 10, 15, 25, 450];
+let toplam = 0;
+
+
+for (let i in sayilar) {
+    toplam += sayilar[i];
+}
+console.log(toplam); //515
+
+
 // while loop
 
 for (let i = 0; i < 10; i++) {
