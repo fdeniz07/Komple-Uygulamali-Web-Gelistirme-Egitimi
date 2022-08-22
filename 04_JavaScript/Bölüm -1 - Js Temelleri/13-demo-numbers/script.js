@@ -1,29 +1,29 @@
 var num = 15.123456789;
 
 // toplamda 3 basamaklı sayı kullan
-console.log(num.toPrecision(3));
+console.log(num.toPrecision(3));  //15.1
 
 // ondalık kısmı 3 basamakta sınırla
-console.log(num.toFixed(4))
+console.log(num.toFixed(4))  //15.1235
 
 // en yakın sayıya yuvarla
-console.log(Math.round(num));
+console.log(Math.round(num)); //15
 
 // aşağı yuvarla
-console.log(Math.floor(num));
+console.log(Math.floor(num)); //15
 
 // yukarı yuvarla
-console.log(Math.ceil(num));
+console.log(Math.ceil(num)); //16
 
 // 1,2,10,56,20 sayılarından en küçüğü ve en büyüğünü bul
-console.log(Math.min(1,2,10,56,20));
-console.log(Math.max(1,2,10,56,20));
+console.log(Math.min(1,2,10,56,20)); //1
+console.log(Math.max(1,2,10,56,20)); //56
 
 // sayı aralığını kullanıcının belirleyeceği rastgele bir sayı üretin.
-var min = 50;
+var min = 50; 
 var max = 100;
 
-console.log(Math.floor(min+Math.random()*(max-min)))
+console.log(Math.floor(min+Math.random()*(max-min))) 
 
 /* Bir personelin yaptığı mesai'ye göre aldığı maaşı hesaplayalım.
    ** Brüt maaş  : 3700 TL
@@ -40,7 +40,7 @@ var toplamBrutMaas = brutMaas + (mesaiUcreti*mesaiSuresi);
 
 var toplamNetMaas = toplamBrutMaas - toplamBrutMaas*0.25
 
-console.log(toplamBrutMaas.toFixed(2),toplamNetMaas.toFixed(2));
+console.log(toplamBrutMaas.toFixed(2),toplamNetMaas.toFixed(2)); //4132.60 3099.45
 
 
 
