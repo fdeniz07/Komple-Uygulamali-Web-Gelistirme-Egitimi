@@ -1,45 +1,38 @@
-
-
-
 // switch statements
 
-// let category = 'beyaz eşya';
+let category = 'beyaz eşya';
 
-// switch(category){
+switch(category){
 
-//     case 'telefon':
-//        console.log('telefon kategorisi');
-//     break;
+    case 'telefon':
+       console.log('telefon kategorisi');
+    break;
 
-//     case 'bilgisayar':
-//        console.log('bilgisayar kategorisi');
-//     break;   
+    case 'bilgisayar':
+       console.log('bilgisayar kategorisi');
+    break;   
 
-//     default:
-//        console.log('yanlış kategori');
-// }
+    default:
+       console.log('yanlış kategori');
+}
 
+let day;
 
-// let day;
+switch (new Date().getDay()) {
+    case 0:
+    case 6:
+        day = 'Hafta Sonu';
+        break;
 
-// switch (new Date().getDay()) {
-//     case 0:
-//     case 6:
-//         day = 'Hafta Sonu';
-//         break;
-
-//     case 1:
-//     case 2:
-//     case 3:
-//     case 4:
-//     case 5:       
-//         day = 'Hafta içi';
-//         break;
-// }
-
-// console.log(`bugün ${day}`);
-
-
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+    case 5:       
+        day = 'Hafta içi';
+        break;
+}
+console.log(`bugün ${day}`);
 
 const age = 9;
 const firstName ='Sena';

@@ -1,14 +1,13 @@
 // Object Literals
 
 let val;
-
 let person = {
-    firstName : 'Çınar',
-    lastName : 'Turan',
+    firstName : 'Fatih',
+    lastName : 'Deniz',
     age : 7,
     hobbies : ['music','game'],
     address : {
-        city : 'Kocaeli',
+        city : 'Antalya',
         country : 'Türkiye'
     },
     getBirthYear : function(){
@@ -29,13 +28,10 @@ val = person.address.city;
 val = person.address['city'];
 val = person.getBirthYear();
 
-
-
-
 let people = [
-                {firstName : 'Çınar',lastName:'Turan'},
-                {firstName : 'Sena',lastName:'Turan'},
-                {firstName : 'Seda',lastName:'Turan'}
+                {firstName : 'Ayhan',lastName:'Turan'},
+                {firstName : 'Sena',lastName:'Kaya'},
+                {firstName : 'Seda',lastName:'Fedakar'}
              ];
 
 
@@ -46,6 +42,4 @@ for(let i =0; i<people.length;i++){
     console.log(people[i].firstName);
 }
 
-// console.log(val);
-// console.log(typeof people);
 

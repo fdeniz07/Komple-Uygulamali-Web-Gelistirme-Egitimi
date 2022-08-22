@@ -1,4 +1,4 @@
-let ogrenciler = ["çınar","yiğit","ada"];
+let ogrenciler = ["çınar", "yiğit", "ada"];
 
 sonuc = ogrenciler.length;
 
@@ -19,11 +19,11 @@ sonuc = ogrenciler.push("sena");    // dizinin sonuna eleman eklenir.
 sonuc = ogrenciler.unshift("sena");
 
 // set array item
-ogrenciler[ogrenciler.length]='emel'; // Dizinin sonuna eleman ekler
+ogrenciler[ogrenciler.length] = 'emel'; // Dizinin sonuna eleman ekler
 
 //indexof
 let index = ogrenciler.indexOf('ada');
-console.log(' index : '+index);
+console.log(' index : ' + index);
 
 // reverse
 ogrenciler.reverse();
@@ -35,26 +35,26 @@ console.log(ogrenciler);
 console.log(typeof ogrenciler);
 
 
-let markalar1 = ["mazda","toyota"];
-let markalar2 = ["opel","renault"];
+let markalar1 = ["mazda", "toyota"];
+let markalar2 = ["opel", "renault"];
 let markalar3 = ["mercedes"];
 
 //concat
-sonuc = markalar1.concat(markalar2, markalar3);
+sonuc = markalar1.concat(markalar2, markalar3); // Concat metodu ile markalar1 dizisi etkilenmez. Yeni bir dizi  olusturulur ve elemanlar onun icerisine eklenir.
 
 // splice
-sonuc = markalar1.splice(0, 1, "bmw","audi");
+sonuc = markalar1.splice(0, 1, "bmw", "audi");
 sonuc = markalar1.splice(0, 1);
 
 console.log(sonuc);
 console.log(markalar1);
 
 
-let years = [2017,1970,1990,1998];
+let years = [2017, 1970, 1990, 1998];
 
-function over18(year){
+function over18(year) {
     let age = 2018 - year;
-    return age>=18;
+    return age >= 18;
 }
 
 // find

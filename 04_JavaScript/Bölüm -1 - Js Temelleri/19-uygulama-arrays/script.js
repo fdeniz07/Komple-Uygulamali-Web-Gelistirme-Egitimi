@@ -67,8 +67,8 @@ console.log(arr3);
 
 // Oluşturulan diziden son 2 elemanı siliniz.
 
-// console.log(arr3.pop());
-// console.log(arr3.pop());
+console.log(arr3.pop());
+console.log(arr3.pop());
 
 // console.log(arr3.splice(6,2));
 console.log(arr3.slice(6,8));
