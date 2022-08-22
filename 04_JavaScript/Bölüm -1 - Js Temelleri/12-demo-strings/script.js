@@ -18,7 +18,7 @@ console.log(sentence.toUpperCase());
 console.log(sentence.trim());
 
 // '-' karakterini silin.
-console.log(sentence.replace('-',''));
+console.log(sentence.replace('-', ''));
 
 // url'nin içinden str kısmını çıkarınız.
 var str = 'http://';
@@ -36,10 +36,10 @@ console.log(url.includes('.com'));
 // url string ifadesini geçerli bir url olarak düzenleyiniz.
 
 console.log(url.toLowerCase()
-               .replace(/ /g,'-') 
-               .replace(/ı/g,'i')
-               .replace(/ü/g,'u')
-               .replace(/ö/g,'o')
-               .replace(/ş/g,'s')
-               .replace(/ç/g,'c')
+    .replace(/ /g, '-')
+    .replace(/ı/g, 'i')
+    .replace(/ü/g, 'u')
+    .replace(/ö/g, 'o')
+    .replace(/ş/g, 's')
+    .replace(/ç/g, 'c')
 );

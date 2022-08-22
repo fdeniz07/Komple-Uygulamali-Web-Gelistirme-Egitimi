@@ -20,11 +20,11 @@ val = Math.ceil(2.6); //3
 val = Math.floor(2.4); //2
 val = Math.floor(2.7); //2
 val = Math.sqrt(64); //8
-val = Math.pow(2,4); //16
+val = Math.pow(2, 4); //16
 val = Math.abs(-100); //100
-val = Math.min(1,2,3,2,4,9); //1
-val = Math.max(4,5,6,4,98,7); //98
-val = Math.floor(Math.random()*100+1); 
+val = Math.min(1, 2, 3, 2, 4, 9); //1
+val = Math.max(4, 5, 6, 4, 98, 7); //98
+val = Math.floor(Math.random() * 100 + 1);
 
 console.log(val);
 console.log(typeof val);

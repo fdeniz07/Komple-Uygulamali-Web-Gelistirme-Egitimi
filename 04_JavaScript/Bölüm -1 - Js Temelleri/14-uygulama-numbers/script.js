@@ -16,14 +16,14 @@ console.log(Math.floor(num)); //15
 console.log(Math.ceil(num)); //16
 
 // 1,2,10,56,20 sayılarından en küçüğü ve en büyüğünü bul
-console.log(Math.min(1,2,10,56,20)); //1
-console.log(Math.max(1,2,10,56,20)); //56
+console.log(Math.min(1, 2, 10, 56, 20)); //1
+console.log(Math.max(1, 2, 10, 56, 20)); //56
 
 // sayı aralığını kullanıcının belirleyeceği rastgele bir sayı üretin.
-var min = 50; 
+var min = 50;
 var max = 100;
 
-console.log(Math.floor(min+Math.random()*(max-min))) 
+console.log(Math.floor(min + Math.random() * (max - min)))
 
 /* Bir personelin yaptığı mesai'ye göre aldığı maaşı hesaplayalım.
    ** Brüt maaş  : 3700 TL
@@ -36,11 +36,11 @@ var brutMaas = 3700;
 var mesaiUcreti = 10.3;
 var mesaiSuresi = 42;
 
-var toplamBrutMaas = brutMaas + (mesaiUcreti*mesaiSuresi);
+var toplamBrutMaas = brutMaas + (mesaiUcreti * mesaiSuresi);
 
-var toplamNetMaas = toplamBrutMaas - toplamBrutMaas*0.25
+var toplamNetMaas = toplamBrutMaas - toplamBrutMaas * 0.25
 
-console.log(toplamBrutMaas.toFixed(2),toplamNetMaas.toFixed(2)); //4132.60 3099.45
+console.log(toplamBrutMaas.toFixed(2), toplamNetMaas.toFixed(2)); //4132.60 3099.45
 
 
 

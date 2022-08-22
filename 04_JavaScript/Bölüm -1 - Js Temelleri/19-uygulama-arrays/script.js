@@ -2,7 +2,7 @@
 
 // "Bmw,Mercedes,Opel,Mazda" elemanlarına sahip bir dizi oluşturun.
 
-var arr = ["Bmw","Merdeces","Opel","Mazda"];
+var arr = ["Bmw", "Merdeces", "Opel", "Mazda"];
 // var arr2 = new Array("Bmw","Merdeces","Opel","Mazda")
 
 console.log(arr);
@@ -13,7 +13,7 @@ console.log(arr.length)
 // Dizinin ilk ve son elemanı nedir ?
 console.log(arr[0])
 console.log(arr[3])
-console.log(arr[arr.length-1])
+console.log(arr[arr.length - 1])
 
 // "Renault" değerini dizinin sonuna ekleyin.
 // arr[4] = "Renault";
@@ -38,15 +38,15 @@ arr.reverse()
 arr.sort();
 
 // [1,2,5,80] dizisini sıralayın.
-var numbers =[1,2,5,80,15];
+var numbers = [1, 2, 5, 80, 15];
 
-function compare(a,b){
-    if(a>b) return 1;
-    if(a==b) return 0;
-    if (a<b) return -1;
+function compare(a, b) {
+    if (a > b) return 1;
+    if (a == b) return 0;
+    if (a < b) return -1;
 }
 
-console.log(numbers.sort(compare)); 
+console.log(numbers.sort(compare));
 
 // "Opel" değeri dizinin bir elemanımıdır ?
 console.log(arr);
@@ -71,7 +71,7 @@ console.log(arr3.pop());
 console.log(arr3.pop());
 
 // console.log(arr3.splice(6,2));
-console.log(arr3.slice(6,8));
+console.log(arr3.slice(6, 8));
 
 console.log(arr3);
 
@@ -83,11 +83,11 @@ console.log(arr3);
 
 */
 
-var studentA = ['Yiğit','Bilgi',2010];
-var studentB = ['Sena','Turan',1999];
-var studentC = ['Ahmet','Turan',1998];
+var studentA = ['Yiğit', 'Bilgi', 2010];
+var studentB = ['Sena', 'Turan', 1999];
+var studentC = ['Ahmet', 'Turan', 1998];
 
-var students =[studentA,studentB,studentC];
+var students = [studentA, studentB, studentC];
 
 console.log(students[0]);
 

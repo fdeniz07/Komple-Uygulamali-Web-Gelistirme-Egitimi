@@ -1,7 +1,7 @@
 // 1- Bir sayının 10-50 arasında olup olmadığını kontrol ediniz.
 
 let sayi1 = 49;
-if (sayi1>10 && sayi1<50) {
+if (sayi1 > 10 && sayi1 < 50) {
     console.log("sayı 10-50 arasındadır.");
 } else {
     console.log("sayı 10-50 arasında değildir.");
@@ -10,8 +10,7 @@ if (sayi1>10 && sayi1<50) {
 // 2- Bir sayının pozitif tek sayı olup olmadığını kontrol ediniz.
 
 let sayi = 21;
-if (sayi % 2 == 1 || sayi > 0)
-{
+if (sayi % 2 == 1 || sayi > 0) {
     console.log("sayi pozitif tek sayıdır.");
 }
 

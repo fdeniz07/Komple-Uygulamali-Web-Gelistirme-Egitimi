@@ -1,22 +1,22 @@
 // Function Declarations
 
-// function sum(a,b){
-//     var c = a+b;
-//     return c;
-// }
+function sum(a, b) {
+  var c = a + b;
+  return c;
+}
 
-// console.log(sum(10,20));
+console.log(sum(10, 20));
 
 // Function Expressions
 
-// const sum = function(a,b){
+const sum = function (a, b) {
 
-//     if(typeof a === 'undefined'){ a=0; }
-//     if(typeof b === 'undefined'){ b=0; }
+  if (typeof a === 'undefined') { a = 0; }
+  if (typeof b === 'undefined') { b = 0; }
 
-//     var c = a+b;
-//     return c;
-// }
+  var c = a + b;
+  return c;
+}
 
 // ES6 Default Parameters
 const sum = function (a = 0, b = 0) {

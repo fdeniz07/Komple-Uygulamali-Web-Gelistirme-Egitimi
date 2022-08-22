@@ -9,23 +9,23 @@ function abc() {
 val = window;
 
 // alert
-// alert('Merhaba');
+alert('Merhaba');
 
 // prompt
-// var val = prompt('bir sayı giriniz ');
+var val1 = prompt('bir sayı giriniz ');
 
 // confirm
-// val = confirm('emin misiniz ?');
+val = confirm('emin misiniz ?');
 
-// if(val){
-//     console.log('ok');
-// }else{
-//     console.log('no');
-// }
+if (val) {
+  console.log('ok');
+} else {
+  console.log('no');
+}
 
 // scroll
-// val = window.scrollX;
-// val = window.scrollY;
+val = window.scrollX;
+val = window.scrollY;
 
 // location
 
@@ -36,7 +36,7 @@ val = window.location.host;
 val = window.location.protocol;
 val = window.location.search;
 
-// window.location.href='http://sadikturan.com';
-// window.location.reload();
+window.location.href = 'http://sadikturan.com';
+window.location.reload();
 
 console.log(val);

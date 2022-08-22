@@ -2,9 +2,9 @@
 // let urun2 = "iphone 13";
 // let urun3 = "iphone 13 pro";
 
-let urunler = ["iphone 12","iphone 13","iphone 13 pro"];
+let urunler = ["iphone 12", "iphone 13", "iphone 13 pro"];
 let fiyatlar = [9000, 12000, 20000];
-let renkler = ["gold","siyah","beyaz"];
+let renkler = ["gold", "siyah", "beyaz"];
 
 let urun1 = ["iphone 12", 9000, "gold"];
 
@@ -14,9 +14,9 @@ urun2[1] = 12000;
 urun2[2] = "siyah";
 
 let urun3 = [
-    "iphone 13 pro", 
-    20000, 
-    ["siyah","beyaz","mavi"]
+    "iphone 13 pro",
+    20000,
+    ["siyah", "beyaz", "mavi"]
 ];
 
 console.log(urun3[2]);
